@@ -7,7 +7,7 @@
 Javascript:
 
 ```js
-const hanoi = (n, a, b, c) => {
+const hanoi = (n, a = '起始柱', b = '暫存柱', c = '目標柱') => {
     if(n === 1) {
         return [{from: a, to: c }];
     }
@@ -19,8 +19,8 @@ const hanoi = (n, a, b, c) => {
 };
     
 
-for (const [index, elem] of hanoi(3, 'A', 'B', 'C').entries()) {
-    console.log('盤從 ' + elem.from + ' 移至 ' + elem.to);
+for (const [index, {from, to}] of hanoi(4).entries()) {
+    console.log(`步數${index + 1}:盤從[${from}]移至[${to}]`);
 }
 ```
 [JS Bin Demo](http://jsbin.com/sotoki/edit?js,console)

@@ -32,4 +32,6 @@ for (const [index, elem] of fibonacci(10).entries()) {
 
 [好神的費式數列](http://blog.xuite.net/windyku0601/wretch/97914546)
 
+[費式數列 PDF](http://www.shs.edu.tw/works/essay/2008/03/2008032822231396.pdf)
+
 

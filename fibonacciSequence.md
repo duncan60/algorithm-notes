@@ -18,7 +18,7 @@ const fibonacci = (len, init = 1) => {
                 prevVal[index + 1] + prevVal[index]
             ];
         },
-        [init, init + 1]
+        [init, init + init]
     );
 };
 

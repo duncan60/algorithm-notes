@@ -7,3 +7,5 @@
  [hanoi tower](https://github.com/duncan60/algorithm-notes/blob/master/hanoiTower.md)
  
  [fibonacci sequence](https://github.com/duncan60/algorithm-notes/blob/master/fibonacciSequence.md)
+ 
+ [pascal triangle](https://github.com/duncan60/algorithm-notes/blob/master/pascalTriangle.md)
